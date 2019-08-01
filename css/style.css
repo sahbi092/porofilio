@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap');
+html,body {
+    padding: 0;
+    margin: 0;
+}
+header, footer {
+    margin: 0 -15vw;
+    padding: 20px 15vw;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(173, 70, 87);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, rgb(148, 144, 144), rgb(165, 164, 164), rgb(240, 236, 236));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgb(163, 161, 161), rgb(145, 143, 143), rgb(240, 236, 236));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+article{
+
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 15vw;
+}
+.loun{
+    display:flex;
+    font-size: 30px;
+    color: rgb(248, 244, 252);
+
+}
+ .avatar{
+     margin: 10px;
+    border-radius: 50%;
+    width: 163px;
+    height: 163px;
+    border: 3px solid rgb(247, 243, 243);
+    background: url("../img/sahbi.JPG") center;
+    background-size: cover;
+} 
+.avatar:hover{
+    margin: 10px;
+   border-radius: 50%;
+   width: 160px;
+   height: 160px;
+   border: 3px solid gold;
+   background: url("../img/sahbi.JPG") center;
+   background-size: cover;
+} 
+
+.lol h2 {
+    right: 760px;
+    top: 150px;
+    font-size: 30px;
+    background:#F2F1DF;
+}
+.lool h2 {
+    right: 760px;
+    top: 150px;
+    font-size: 30px;
+    background:#F2F1DF;
+}
+.lool h2 {
+    right: 760px;
+    top: 150px;
+    font-size: 30px;
+    background:#F2F1DF;
+}
+.loool h2 {
+    right: 760px;
+    top: 150px;
+    font-size: 30px;
+    background:#F2F1DF;
+}
+h1:hover{
+    color: gold;
+
+}
+h2:hover{
+    background: linear-gradient(to left, rgb(83, 52, 196),rgb(98, 25, 194),rgb(13, 49, 146));
+color: rgb(255, 255, 255);
+}
+.fab, .fas {
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.btn-call {
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: #1061A0;
+    position: fixed;
+    bottom: 150px;
+    right: 50px;
+}
+.btn-mail {
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: #6DD5FA;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 30px;
+}
+
+.btn-call i {
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+}
+.btn-mail i {
+    color: white;
+    font-size: 40px;
+    margin: 20px;
+}
