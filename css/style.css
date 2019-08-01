@@ -11,7 +11,7 @@ header, footer {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
     background: rgb(173, 70, 87);
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, rgb(148, 144, 144), rgb(165, 164, 164), rgb(240, 236, 236));
+    background: -webkit-linear-gradient(to left, rgb(69, 32, 170), rgb(165, 164, 164), rgb(240, 236, 236));
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, rgb(163, 161, 161), rgb(145, 143, 143), rgb(240, 236, 236));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -20,6 +20,7 @@ article{
 
     font-family: 'Fira Sans', sans-serif;
     padding: 0 15vw;
+    
 }
 .loun{
     display:flex;
